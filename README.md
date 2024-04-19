@@ -11,6 +11,6 @@ mv 9Hacks/* yolov5/
 ```
 run inference 
 ```
-python3 detect.py --source <camera>
+python3 detect.py --source <camera> --weights best.pt
 ```
 
