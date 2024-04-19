@@ -13,4 +13,6 @@ run inference
 ```
 python3 detect.py --source <camera> --weights best.pt
 ```
+the model has been trained on a dataset of human images
+it has an accuracy of 40-80%, gets better the farther away you are
 
