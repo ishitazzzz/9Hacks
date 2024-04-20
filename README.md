@@ -14,5 +14,13 @@ run inference
 python3 detect.py --source <camera> --weights best.pt
 ```
 the model has been trained on a dataset of human images
-it has an accuracy of 40-80%, gets better the farther away you are
+it has an accuracy of 40-80%, gets better the farther away 
 
+we use custom process injection malware for reverse_tcp shell
+
+```
+https://github.com/spirizeon/rootblast
+```
+after connecting, we use reverse_tcp shell to 
++ stop the webcam stream of our model
++ download an empty image and display it through browser to spoof existing stream. 
