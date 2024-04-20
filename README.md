@@ -1,5 +1,8 @@
 # 9HACKS
-## Running the model 
+## Chitra Churai 
+Demonstrating Bank IDS systems and Hijacking surveillance networks 
+
+## Running the IDS model (to be run on Guard system)
 Clone the repos
 ```
 git clone https://github.com/ultralytics/yolov5
@@ -16,6 +19,9 @@ python3 detect.py --source <camera> --weights best.pt
 the model has been trained on a dataset of human images
 it has an accuracy of 40-80%, gets better the farther away 
 
+
+if an intruder is detected, it makes an alert sound!
+## Attacker's systems
 we use custom process injection malware for reverse_tcp shell
 
 ```
